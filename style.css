@@ -1,0 +1,127 @@
+.container {
+    background-image: url('/images/background_ht.png');
+    background-size: cover;
+    background-position: bottom;
+    font-family: 'garamond';
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    height: 100vh;
+}
+
+nav {
+    padding: 10px;
+}
+
+img {
+    width: 65px;
+    height: 65px;
+    border-radius: 30px;
+}
+
+#menu_nav{
+    background-color: #CCC;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+label {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+input {
+    border: 1px solid #000;    
+}
+
+#submit {
+    background-color: #774f38;
+    border: 1px solid #533726;
+    box-shadow: 2px 2px 10px #7e726b;
+    font-weight: bold;
+    color: rgb(241, 222, 199);
+}
+
+#submit:hover{
+    background-color: #b67651;
+} 
+footer {
+    margin-top: 180px;
+    color: #DDD;
+    font-weight: bold;
+    padding: 9px;
+    background-color: #000;
+}
+
+#physical_area{
+    width: 60%;
+    font-size: 24px;
+}
+
+
+.subscription {
+    margin: auto;
+    width: 90%;
+}
+
+.subscription label {
+    margin: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    width:61%;
+} 
+@media (min-width: 441px) and (max-width:990px) {
+    .title {
+        display: none;
+    }
+
+    form {
+        margin-top: 80px;
+    }
+
+    #form_address,
+    #form_card {
+        margin-top: 90px;
+    }
+    
+}
+
+
+@media (min-width:300px) and (max-width:440px) {
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+
+    form {
+        margin-top: 80px;
+    }
+
+    .title {
+        display: none;
+    }
+
+    #form_address,
+    #form_card {
+        margin-top: 90px;
+    }
+    
+}
